@@ -6,6 +6,6 @@ namespace crud_operation.Iservice
     public interface IAccountService
     {
 
-        Task<List<acountsInfo>> GetAllAccountsInfo();
+        List<acountsInfo> SearchAccountNameById(int studentId);
     }
 }
